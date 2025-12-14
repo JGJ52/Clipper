@@ -1,0 +1,13 @@
+{
+  "text.config.clipper.title": "Clipper Configuration Menu",
+  "text.config.clipper.option.obs_url": "OBS WebSocket URL",
+  "text.config.clipper.option.obs_password": "OBS WebSocket Password",
+  "text.config.clipper.option.obs_systemd": "Do you have obs systemd user service? (Linux only)",
+  "text.config.clipper.option.obs_service": "What's the service's name? (Linux only)",
+  "text.config.clipper.option.zipline_url": "Zipline URL",
+  "text.config.clipper.option.zipline_token": "Zipline Token",
+  "text.config.clipper.option.blur_path": "Blur's path",
+  "text.config.clipper.option.blur_config": "Blur's config path",
+  "key.clipper.clip": "Capture Clip",
+  "category.clipper": "Clipper"
+}

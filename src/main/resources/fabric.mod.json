@@ -1,0 +1,37 @@
+{
+  "schemaVersion": 1,
+  "id": "clipper",
+  "version": "${version}",
+  "name": "Clipper",
+  "description": "",
+  "authors": [],
+  "contact": {},
+  "license": "GPL-3.0",
+  "icon": "assets/clipper/icon.png",
+  "environment": "client",
+  "entrypoints": {
+    "fabric-datagen": [
+      "hu.jgj52.clipper.client.ClipperDataGenerator"
+    ],
+    "client": [
+      "hu.jgj52.clipper.client.ClipperClient"
+    ],
+    "main": [
+      "hu.jgj52.clipper.Clipper"
+    ]
+  },
+  "mixins": [
+    "clipper.mixins.json",
+    {
+      "config": "clipper.client.mixins.json",
+      "environment": "client"
+    }
+  ],
+  "depends": {
+    "fabricloader": ">=${loader_version}",
+    "fabric": "*",
+    "minecraft": ">=1.21 <=1.21.11",
+    "modmenu": "*",
+    "owo-lib": "*"
+  }
+}
