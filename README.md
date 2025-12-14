@@ -1,6 +1,6 @@
 # Clipper
 ![Time](https://hackatime-badge.hackclub.com/U0922GMGGTU/Clipper?label=Time+spent+on+this)
-![Downloads](https://img.shields.io/modrinth/dt/clipper/latest.svg?color=blue)
+![Downloads](https://img.shields.io/modrinth/dt/clipper)
 ---
 This mod adds a keybind to the game, that when pressed, sends a message to OBS to save replay buffer.
 Then, it uses [blur](https://github.com/f0e/blur) to blur the video.
